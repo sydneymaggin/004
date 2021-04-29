@@ -1,0 +1,23 @@
+@font-face {
+    font-family: eurostile-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+    src: url(https://use.typekit.net/sdb0tcc.css);
+}
+    
+
+body{
+    font-family: eurostile-extended, sans-serif;
+    font-size: 3rem;
+    color: #3EE13A;
+}
+
+
+img{
+    width: 150px;
+}
+
+#input{
+    width: 400px;
+    border-color: #3EE13A;
+}
