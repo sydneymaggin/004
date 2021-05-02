@@ -10,40 +10,32 @@ body{
     font-family: eurostile-extended, sans-serif;
     font-size: 5rem;
     color: #3EE13A;
-    margin: 3rem;
+    position: relative;
+    top: -6rem;
+    /* margin: 0rem; */
 }
+
+#prompt{
+    position: relative;
+    top: 40rem;
+    z-index: 10;
+  
+
+}
+
+
+
 
 
 img{
     width: 100px;
+    position: relative;
+
 }
 
 #input{
     width: 400px;
     border-color: #3EE13A;
     position: relative;
-    top: 5rem;
-}
-
-#prompt{
-    position: relative;
-    padding-top: 10%;
-    text-align: center;
-
-}
-
-
-
-.circle {
-    display:inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
-    border-radius: 50%;
-    line-height: 100px;
-    text-align: center;
-}
-
-button{
-    
+    top: 20rem;
 }
