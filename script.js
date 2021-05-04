@@ -82,31 +82,34 @@ document.addEventListener("keydown", function(event){
     }
 
     //j
-    if(event.key == "j" || event.key == "x")
-
+    if(event.key == "j" || event.key == "x"){
     newPrint=prints[9]
+    makeDiv("images/10.png");
+    }
 
     //k
-    if(event.key == "k" || event.key == "y")
-
+    if(event.key == "k" || event.key == "y"){
     newPrint=prints[10]
+    makeDiv("images/11.png");
+    }
 
     //l
-    if(event.key == "l" || event.key == "z")
-
+    if(event.key == "l" || event.key == "z"){
     newPrint=prints[11]
+    makeDiv("images/12.png");
+    }
 
     //m
-    if(event.key == "m")
-
+    if(event.key == "m"){
     newPrint=prints[12]
+    makeDiv("images/13.png");
+    }
 
     //n
-    if(event.key == "n")
-
+    if(event.key == "n"){
     newPrint=prints[13]
-
-    
+    makeDiv("images/01.png");
+    }
     }
 
    
@@ -138,3 +141,19 @@ function makeDiv(imgURL) {
     document.body.append(myImg);
     console.log(myImg);
 }
+
+
+
+// document.addEventListener("keydown", function(event)
+//     {
+//         console.log(event);
+//         console.log("what did we just press?");
+//         console.log(event.key);
+//         if (event.key == "Enter"){
+//             document.body.classList.toggle("prompt")
+//         }
+
+//         result.innerText = (prompts);
+//     })
+
+  
