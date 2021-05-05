@@ -36,16 +36,16 @@ button{
     border: none;
     z-index: 100;
     font-size: 2rem;
-    
 
 }
 
 
 img{
-    width: 4%;
+    width: 3%;
     position: relative;
     display: inline-block;
-    top: -3rem
+    top: -3rem;
+    line-height: 0px;
     
    
 
@@ -61,3 +61,42 @@ img{
     left: 35%;
 }
 
+@media only screen and (max-width: 1250px) {
+    img { 
+        width: 3.5%;
+    }
+    body{
+        font-size: 3.5rem;
+    }
+    button{
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+  }
+
+@media only screen and (max-width: 1050px) {
+    img { 
+        width: 4.5%;
+    }
+    body{
+        font-size: 3rem;
+    }
+    button{
+        width: 10rem;
+        font-size: 1.3rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    img { 
+        width: 5%;
+    }
+    body{
+        font-size: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    button{
+        left: 38%;
+    }
+}
