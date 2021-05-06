@@ -123,7 +123,9 @@ var prompts = [
     'Do you worry about who has access to your data?',
     'Are you mindful of your online presence?',
     'Are you afraid of what others can learn about you?',
-    'Is your identity safe?'
+    'Is your identity safe?',
+    'Are you anxious about your online interactions?',
+    'Are you afraid that what you say online will be held against you?',
 ]
 
 function newPrompt() {
